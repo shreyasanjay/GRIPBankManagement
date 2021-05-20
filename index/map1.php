@@ -8,6 +8,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
+
         
     </head>
     <body style="background-image: linear-gradient(rgb(136, 35, 139), white);">
@@ -17,9 +19,8 @@
                 
                     <section class="section1 clearfix">
                         <div class="textcenter">
-                            <span class="shtext" style="color: black;">Contact Us</span>
-                            <span class="seperator"></span>
-                            <h1 style="color: black;">Drop your suggestions here!</h1>
+                            
+                            <h1 style="color: black;"> <i class="fas fa-comments"></i> Drop your suggestions here!</h1>
                         </div>
                     </section>
                 
@@ -37,7 +38,8 @@
                                 </div>
                             </div>
                             <div class="sec2contactform">
-                                <h3 class="sec2frmtitle" style="color: black;">Would you like to share something? <br> Write us a Feedback</h3>
+                                <h3 class="sec2frmtitle" style="color: black;"> <i class="fas fa-envelope-open-text"></i> 
+                                Would you like to share something? <br> Write us a Feedback</h3>
                                 <form action="insert.php" method="POST">
                                     <div class="clearfix">
                                         <input class="col2 first" type="text" name="name" value="" placeholder="Enter your name">

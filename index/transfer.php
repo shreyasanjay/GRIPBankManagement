@@ -11,6 +11,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
         <link rel="stylesheet" href="../css/main.css">
         <title>Bank Management System</title>
     </head>
@@ -18,7 +19,7 @@
    
     <body style="background-image: linear-gradient(rgb(136, 35, 139), white); background-repeat: no-repeat;">
     <div class="container">
-        <h2 class="text-center">Account Details</h2>
+        <h2 class="text-center"> <i class="fas fa-file-invoice"></i>Account Details</h2>
         <?php
             echo '<div id="table_align" class="table-responsive">  
             <table class="table table-bordered" >  
@@ -48,11 +49,12 @@
             echo '</table> </div> <br />';
         ?>
          
-        <h3 class="text-center">Transfer Money</h3>
+        <h3 class="text-center"> <i class="fas fa-comments-dollar"></i> Transfer Money</h3>
         <div class="col-lg-8">
         <div class="form-group">
         <div class="card" id="chapterCard">
-            <div class="card-body" >
+            <div class="card-body" style="background-image: linear-gradient(rgb(181,118,183), white);
+    background-repeat: no-repeat;">
                 <form action="insert.php" method="POST">
                     <label class=" col-lg-2">Sender :</label>
                     <input type="text" class=" col-lg-8" value ="" id="from_customer" name="from_customer"> 

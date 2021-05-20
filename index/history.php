@@ -12,7 +12,8 @@
         <title>Bank Management System</title>
     </head>
     
-    <body style="background-image: linear-gradient(rgb(218, 136, 186), white);">
+    <body style="background-image: linear-gradient(rgb(136, 35, 139), white);
+    background-repeat: no-repeat;">
     <div class="container">
         <h2 class="text-center">Transaction History</h2>
         <?php

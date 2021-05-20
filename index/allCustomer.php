@@ -7,6 +7,8 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>    
+
 
         <link rel="stylesheet" href="../css/main.css">
         <title>Bank Management System</title>
@@ -14,7 +16,7 @@
     
     <body id="transfer">
     <div class="container">
-        <h2 class="text-center">Customer Records</h2>
+        <h2 class="text-center"> <i class="fas fa-book"></i>Customer Records</h2>
         <?php
             echo '<div id="table_align" class="table-responsive">  
             <table id="itable" class="table table-bordered" >  
