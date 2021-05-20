@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0px; 
+      padding: 0px; 
+}
+
+h2,h3{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.table, .table td,.table th{
+    border :1px solid black;
+}
+
+.table{
+    text-align: center;
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-weight: bold;
+
+}
+
+.table th{
+    background-color: rgb(146, 5, 111);
+    color: white;
+    font-size: larger;
+}
+
+
+button{
+    padding: 2px;
+    box-shadow:2px 3px black;
+    border-radius: 5px;
+}
+
+button:hover{
+    border-radius: 6px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+/*//////////////////////              Contact Us      ///////////////////////////////////////////////*/
+
+.section-form{
+    margin-left: 60%;
+    margin-top: 0%;
+    margin-right: 2%;
+    padding: 2%;
+    background-color: rgb(206, 113, 181);
+    height:100%;
+    border-radius: 5px;
+    
+}
+
+#gmap_canvas{
+    min-width: 50%;
+    min-height: 100%;
+    float: none;
+    clear: left;
+    padding-top: 20%;
+    
+}
+
+input, textarea{
+    
+    padding: 5px;
+}
+
+#submit{
+    background-color: transparent;
+    color: black;
+    font-weight: bold;
+    margin: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    border: 1px solid rgb(165, 49, 136);
+}
+
+#submit:hover{
+    box-shadow: 5px solid black;
+}
+
+#transfer{
+    background-image: linear-gradient(rgb(136, 35, 139), white);
+    background-repeat: no-repeat;
+}
+
+
